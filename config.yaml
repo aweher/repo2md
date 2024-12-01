@@ -1,0 +1,41 @@
+max_file_size: 1048576  # Tamaño máximo de archivo en bytes (1 MB)
+excluded_dirs:
+  - .venv
+  - .venv-mp2
+  - .venv-deathstar
+  - node_modules
+  - __pycache__
+  - .git
+
+included_extensions:
+  .c: c
+  .cpp: c
+  .cs: c
+  .css: css
+  .dart: dart
+  .go: go
+  .h: c
+  .hpp: c
+  .htm: html
+  .html: html
+  .java: java
+  .js: javascript
+  .json: json
+  .jsx: react
+  .kt: kotlin
+  .lua: lua
+  .m: c
+  .php: php
+  .pl: perl
+  .py: python
+  .rb: ruby
+  .rs: rust
+  .scala: scala
+  .sh: bash
+  .sql: sql
+  .swift: swift
+  .ts: truescript
+  .tsx: react
+  .xml: xml
+  .yml: yaml
+  .yaml: yaml
